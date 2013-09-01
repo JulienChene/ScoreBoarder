@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4384D1C17D387AE007544D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4384D1B17D387AE007544D8 /* UIKit.framework */; };
+		D4384D1E17D387AE007544D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4384D1D17D387AE007544D8 /* Foundation.framework */; };
+		D4384D2017D387AE007544D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4384D1F17D387AE007544D8 /* CoreGraphics.framework */; };
+		D4384D2617D387AE007544D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4384D2417D387AE007544D8 /* InfoPlist.strings */; };
+		D4384D2817D387AE007544D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4384D2717D387AE007544D8 /* main.m */; };
+		D4384D2C17D387AE007544D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4384D2B17D387AE007544D8 /* AppDelegate.m */; };
+		D4384D2E17D387AE007544D8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D4384D2D17D387AE007544D8 /* Default.png */; };
+		D4384D3017D387AE007544D8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4384D2F17D387AE007544D8 /* Default@2x.png */; };
+		D4384D3217D387AE007544D8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4384D3117D387AE007544D8 /* Default-568h@2x.png */; };
+		D4384D3517D387AE007544D8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4384D3317D387AE007544D8 /* MainStoryboard.storyboard */; };
+		D4384D3817D387AE007544D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4384D3717D387AE007544D8 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4384D1817D387AE007544D8 /* ScoreBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4384D1B17D387AE007544D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4384D1D17D387AE007544D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4384D1F17D387AE007544D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4384D2317D387AE007544D8 /* ScoreBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScoreBoard-Info.plist"; sourceTree = "<group>"; };
+		D4384D2517D387AE007544D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4384D2717D387AE007544D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4384D2917D387AE007544D8 /* ScoreBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScoreBoard-Prefix.pch"; sourceTree = "<group>"; };
+		D4384D2A17D387AE007544D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4384D2B17D387AE007544D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4384D2D17D387AE007544D8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D4384D2F17D387AE007544D8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D4384D3117D387AE007544D8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D4384D3417D387AE007544D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D4384D3617D387AE007544D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4384D3717D387AE007544D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4384D1517D387AE007544D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4384D1C17D387AE007544D8 /* UIKit.framework in Frameworks */,
+				D4384D1E17D387AE007544D8 /* Foundation.framework in Frameworks */,
+				D4384D2017D387AE007544D8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4384D0F17D387AE007544D8 = {
+			isa = PBXGroup;
+			children = (
+				D4384D2117D387AE007544D8 /* ScoreBoard */,
+				D4384D1A17D387AE007544D8 /* Frameworks */,
+				D4384D1917D387AE007544D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4384D1917D387AE007544D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4384D1817D387AE007544D8 /* ScoreBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4384D1A17D387AE007544D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4384D1B17D387AE007544D8 /* UIKit.framework */,
+				D4384D1D17D387AE007544D8 /* Foundation.framework */,
+				D4384D1F17D387AE007544D8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4384D2117D387AE007544D8 /* ScoreBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D4384D2A17D387AE007544D8 /* AppDelegate.h */,
+				D4384D2B17D387AE007544D8 /* AppDelegate.m */,
+				D4384D3317D387AE007544D8 /* MainStoryboard.storyboard */,
+				D4384D3617D387AE007544D8 /* ViewController.h */,
+				D4384D3717D387AE007544D8 /* ViewController.m */,
+				D4384D2217D387AE007544D8 /* Supporting Files */,
+			);
+			path = ScoreBoard;
+			sourceTree = "<group>";
+		};
+		D4384D2217D387AE007544D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4384D2317D387AE007544D8 /* ScoreBoard-Info.plist */,
+				D4384D2417D387AE007544D8 /* InfoPlist.strings */,
+				D4384D2717D387AE007544D8 /* main.m */,
+				D4384D2917D387AE007544D8 /* ScoreBoard-Prefix.pch */,
+				D4384D2D17D387AE007544D8 /* Default.png */,
+				D4384D2F17D387AE007544D8 /* Default@2x.png */,
+				D4384D3117D387AE007544D8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4384D1717D387AE007544D8 /* ScoreBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4384D3B17D387AE007544D8 /* Build configuration list for PBXNativeTarget "ScoreBoard" */;
+			buildPhases = (
+				D4384D1417D387AE007544D8 /* Sources */,
+				D4384D1517D387AE007544D8 /* Frameworks */,
+				D4384D1617D387AE007544D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoreBoard;
+			productName = ScoreBoard;
+			productReference = D4384D1817D387AE007544D8 /* ScoreBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4384D1017D387AE007544D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Julien Chene";
+			};
+			buildConfigurationList = D4384D1317D387AE007544D8 /* Build configuration list for PBXProject "ScoreBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4384D0F17D387AE007544D8;
+			productRefGroup = D4384D1917D387AE007544D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4384D1717D387AE007544D8 /* ScoreBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4384D1617D387AE007544D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4384D2617D387AE007544D8 /* InfoPlist.strings in Resources */,
+				D4384D2E17D387AE007544D8 /* Default.png in Resources */,
+				D4384D3017D387AE007544D8 /* Default@2x.png in Resources */,
+				D4384D3217D387AE007544D8 /* Default-568h@2x.png in Resources */,
+				D4384D3517D387AE007544D8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4384D1417D387AE007544D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4384D2817D387AE007544D8 /* main.m in Sources */,
+				D4384D2C17D387AE007544D8 /* AppDelegate.m in Sources */,
+				D4384D3817D387AE007544D8 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4384D2417D387AE007544D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4384D2517D387AE007544D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4384D3317D387AE007544D8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4384D3417D387AE007544D8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4384D3917D387AE007544D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4384D3A17D387AE007544D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4384D3C17D387AE007544D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreBoard/ScoreBoard-Prefix.pch";
+				INFOPLIST_FILE = "ScoreBoard/ScoreBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4384D3D17D387AE007544D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreBoard/ScoreBoard-Prefix.pch";
+				INFOPLIST_FILE = "ScoreBoard/ScoreBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4384D1317D387AE007544D8 /* Build configuration list for PBXProject "ScoreBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4384D3917D387AE007544D8 /* Debug */,
+				D4384D3A17D387AE007544D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4384D3B17D387AE007544D8 /* Build configuration list for PBXNativeTarget "ScoreBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4384D3C17D387AE007544D8 /* Debug */,
+				D4384D3D17D387AE007544D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4384D1017D387AE007544D8 /* Project object */;
+}
