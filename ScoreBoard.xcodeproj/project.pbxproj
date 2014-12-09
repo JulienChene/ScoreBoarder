@@ -17,7 +17,25 @@
 		D4384D3017D387AE007544D8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4384D2F17D387AE007544D8 /* Default@2x.png */; };
 		D4384D3217D387AE007544D8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4384D3117D387AE007544D8 /* Default-568h@2x.png */; };
 		D4384D3517D387AE007544D8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4384D3317D387AE007544D8 /* MainStoryboard.storyboard */; };
-		D4384D3817D387AE007544D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4384D3717D387AE007544D8 /* ViewController.m */; };
+		D4384D3817D387AE007544D8 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4384D3717D387AE007544D8 /* HomePageViewController.m */; };
+		D4384D4017D3928A007544D8 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = D4384D3F17D3928A007544D8 /* Player.m */; };
+		D4384D4317D392A0007544D8 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = D4384D4217D392A0007544D8 /* Team.m */; };
+		D4384D4617D395FF007544D8 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4384D4517D395FF007544D8 /* TeamViewController.m */; };
+		D4384D4C17D616F6007544D8 /* PlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4384D4B17D616F6007544D8 /* PlayersViewController.m */; };
+		D4684683181FF2AA00513C65 /* MatchPlayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D4684682181FF2AA00513C65 /* MatchPlayerInfo.m */; };
+		D484C35917FDADD10097BDF2 /* MySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = D484C35817FDADD10097BDF2 /* MySingleton.m */; };
+		D484C35C17FDC3390097BDF2 /* PlayerProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D484C35B17FDC3390097BDF2 /* PlayerProfileViewController.m */; };
+		D48C202218082A360040BCE0 /* ModifyTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48C202118082A360040BCE0 /* ModifyTeamViewController.m */; };
+		D48DE93F1836954500CD987F /* FinishedMatchSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48DE93E1836954500CD987F /* FinishedMatchSheetViewController.m */; };
+		D49D5C9C181A5F5D00FE4F9D /* MatchSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49D5C9B181A5F5D00FE4F9D /* MatchSheetViewController.m */; };
+		D4A0238F18059CD90069D8F0 /* MatchBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A0238E18059CD90069D8F0 /* MatchBoardViewController.m */; };
+		D4A023931805A7390069D8F0 /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A023921805A7390069D8F0 /* Match.m */; };
+		D4A023961805B0980069D8F0 /* Goal.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A023951805B0980069D8F0 /* Goal.m */; };
+		D4F41A84182CF87500818A0F /* MatchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F41A83182CF87500818A0F /* MatchListViewController.m */; };
+		D4F41A87182D47C600818A0F /* PlayerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F41A86182D47C600818A0F /* PlayerListViewController.m */; };
+		D4F41A8A182EAEA100818A0F /* PlayerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F41A89182EAEA100818A0F /* PlayerInfoViewController.m */; };
+		D4FB2D7617F59E59002832AE /* SelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB2D7517F59E59002832AE /* SelectionViewController.m */; };
+		D4FB2D7C17F9A68A002832AE /* CreatePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB2D7B17F9A68A002832AE /* CreatePlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +53,44 @@
 		D4384D2F17D387AE007544D8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D4384D3117D387AE007544D8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D4384D3417D387AE007544D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D4384D3617D387AE007544D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D4384D3717D387AE007544D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4384D3617D387AE007544D8 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		D4384D3717D387AE007544D8 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		D4384D3E17D3928A007544D8 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		D4384D3F17D3928A007544D8 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		D4384D4117D392A0007544D8 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		D4384D4217D392A0007544D8 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		D4384D4417D395FF007544D8 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		D4384D4517D395FF007544D8 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		D4384D4A17D616F6007544D8 /* PlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersViewController.h; sourceTree = "<group>"; };
+		D4384D4B17D616F6007544D8 /* PlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersViewController.m; sourceTree = "<group>"; };
+		D4684681181FF2AA00513C65 /* MatchPlayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchPlayerInfo.h; sourceTree = "<group>"; };
+		D4684682181FF2AA00513C65 /* MatchPlayerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchPlayerInfo.m; sourceTree = "<group>"; };
+		D484C35717FDADD10097BDF2 /* MySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySingleton.h; sourceTree = "<group>"; };
+		D484C35817FDADD10097BDF2 /* MySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySingleton.m; sourceTree = "<group>"; };
+		D484C35A17FDC3390097BDF2 /* PlayerProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerProfileViewController.h; sourceTree = "<group>"; };
+		D484C35B17FDC3390097BDF2 /* PlayerProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerProfileViewController.m; sourceTree = "<group>"; };
+		D48C202018082A360040BCE0 /* ModifyTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyTeamViewController.h; sourceTree = "<group>"; };
+		D48C202118082A360040BCE0 /* ModifyTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyTeamViewController.m; sourceTree = "<group>"; };
+		D48DE93D1836954500CD987F /* FinishedMatchSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinishedMatchSheetViewController.h; sourceTree = "<group>"; };
+		D48DE93E1836954500CD987F /* FinishedMatchSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinishedMatchSheetViewController.m; sourceTree = "<group>"; };
+		D49D5C9A181A5F5D00FE4F9D /* MatchSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchSheetViewController.h; sourceTree = "<group>"; };
+		D49D5C9B181A5F5D00FE4F9D /* MatchSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchSheetViewController.m; sourceTree = "<group>"; };
+		D4A0238D18059CD90069D8F0 /* MatchBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchBoardViewController.h; sourceTree = "<group>"; };
+		D4A0238E18059CD90069D8F0 /* MatchBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchBoardViewController.m; sourceTree = "<group>"; };
+		D4A023911805A7390069D8F0 /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
+		D4A023921805A7390069D8F0 /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
+		D4A023941805B0980069D8F0 /* Goal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goal.h; sourceTree = "<group>"; };
+		D4A023951805B0980069D8F0 /* Goal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goal.m; sourceTree = "<group>"; };
+		D4F41A82182CF87500818A0F /* MatchListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchListViewController.h; sourceTree = "<group>"; };
+		D4F41A83182CF87500818A0F /* MatchListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchListViewController.m; sourceTree = "<group>"; };
+		D4F41A85182D47C600818A0F /* PlayerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerListViewController.h; sourceTree = "<group>"; };
+		D4F41A86182D47C600818A0F /* PlayerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerListViewController.m; sourceTree = "<group>"; };
+		D4F41A88182EAEA100818A0F /* PlayerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerInfoViewController.h; sourceTree = "<group>"; };
+		D4F41A89182EAEA100818A0F /* PlayerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerInfoViewController.m; sourceTree = "<group>"; };
+		D4FB2D7417F59E59002832AE /* SelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionViewController.h; sourceTree = "<group>"; };
+		D4FB2D7517F59E59002832AE /* SelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionViewController.m; sourceTree = "<group>"; };
+		D4FB2D7A17F9A68A002832AE /* CreatePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatePlayerViewController.h; sourceTree = "<group>"; };
+		D4FB2D7B17F9A68A002832AE /* CreatePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatePlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +107,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D41E1FC9182C65A00099E164 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D4F41A82182CF87500818A0F /* MatchListViewController.h */,
+				D4F41A83182CF87500818A0F /* MatchListViewController.m */,
+				D4F41A85182D47C600818A0F /* PlayerListViewController.h */,
+				D4F41A86182D47C600818A0F /* PlayerListViewController.m */,
+				D4F41A88182EAEA100818A0F /* PlayerInfoViewController.h */,
+				D4F41A89182EAEA100818A0F /* PlayerInfoViewController.m */,
+				D48DE93D1836954500CD987F /* FinishedMatchSheetViewController.h */,
+				D48DE93E1836954500CD987F /* FinishedMatchSheetViewController.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		D4384D0F17D387AE007544D8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,9 +154,23 @@
 			children = (
 				D4384D2A17D387AE007544D8 /* AppDelegate.h */,
 				D4384D2B17D387AE007544D8 /* AppDelegate.m */,
+				D4384D3617D387AE007544D8 /* HomePageViewController.h */,
+				D4384D3717D387AE007544D8 /* HomePageViewController.m */,
 				D4384D3317D387AE007544D8 /* MainStoryboard.storyboard */,
-				D4384D3617D387AE007544D8 /* ViewController.h */,
-				D4384D3717D387AE007544D8 /* ViewController.m */,
+				D4A023901805A31F0069D8F0 /* Match */,
+				D41E1FC9182C65A00099E164 /* Data */,
+				D4A023941805B0980069D8F0 /* Goal.h */,
+				D4A023951805B0980069D8F0 /* Goal.m */,
+				D4A023911805A7390069D8F0 /* Match.h */,
+				D4A023921805A7390069D8F0 /* Match.m */,
+				D4684681181FF2AA00513C65 /* MatchPlayerInfo.h */,
+				D4684682181FF2AA00513C65 /* MatchPlayerInfo.m */,
+				D484C35717FDADD10097BDF2 /* MySingleton.h */,
+				D484C35817FDADD10097BDF2 /* MySingleton.m */,
+				D4384D3E17D3928A007544D8 /* Player.h */,
+				D4384D3F17D3928A007544D8 /* Player.m */,
+				D4384D4117D392A0007544D8 /* Team.h */,
+				D4384D4217D392A0007544D8 /* Team.m */,
 				D4384D2217D387AE007544D8 /* Supporting Files */,
 			);
 			path = ScoreBoard;
@@ -105,6 +188,29 @@
 				D4384D3117D387AE007544D8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4A023901805A31F0069D8F0 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				D4FB2D7A17F9A68A002832AE /* CreatePlayerViewController.h */,
+				D4FB2D7B17F9A68A002832AE /* CreatePlayerViewController.m */,
+				D4A0238D18059CD90069D8F0 /* MatchBoardViewController.h */,
+				D4A0238E18059CD90069D8F0 /* MatchBoardViewController.m */,
+				D49D5C9A181A5F5D00FE4F9D /* MatchSheetViewController.h */,
+				D49D5C9B181A5F5D00FE4F9D /* MatchSheetViewController.m */,
+				D48C202018082A360040BCE0 /* ModifyTeamViewController.h */,
+				D48C202118082A360040BCE0 /* ModifyTeamViewController.m */,
+				D484C35A17FDC3390097BDF2 /* PlayerProfileViewController.h */,
+				D484C35B17FDC3390097BDF2 /* PlayerProfileViewController.m */,
+				D4384D4A17D616F6007544D8 /* PlayersViewController.h */,
+				D4384D4B17D616F6007544D8 /* PlayersViewController.m */,
+				D4FB2D7417F59E59002832AE /* SelectionViewController.h */,
+				D4FB2D7517F59E59002832AE /* SelectionViewController.m */,
+				D4384D4417D395FF007544D8 /* TeamViewController.h */,
+				D4384D4517D395FF007544D8 /* TeamViewController.m */,
+			);
+			name = Match;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,8 +280,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4384D2817D387AE007544D8 /* main.m in Sources */,
+				D4F41A8A182EAEA100818A0F /* PlayerInfoViewController.m in Sources */,
+				D4A023931805A7390069D8F0 /* Match.m in Sources */,
+				D484C35C17FDC3390097BDF2 /* PlayerProfileViewController.m in Sources */,
+				D484C35917FDADD10097BDF2 /* MySingleton.m in Sources */,
+				D4F41A84182CF87500818A0F /* MatchListViewController.m in Sources */,
 				D4384D2C17D387AE007544D8 /* AppDelegate.m in Sources */,
-				D4384D3817D387AE007544D8 /* ViewController.m in Sources */,
+				D4384D3817D387AE007544D8 /* HomePageViewController.m in Sources */,
+				D4F41A87182D47C600818A0F /* PlayerListViewController.m in Sources */,
+				D48DE93F1836954500CD987F /* FinishedMatchSheetViewController.m in Sources */,
+				D4384D4017D3928A007544D8 /* Player.m in Sources */,
+				D4A0238F18059CD90069D8F0 /* MatchBoardViewController.m in Sources */,
+				D4684683181FF2AA00513C65 /* MatchPlayerInfo.m in Sources */,
+				D48C202218082A360040BCE0 /* ModifyTeamViewController.m in Sources */,
+				D4A023961805B0980069D8F0 /* Goal.m in Sources */,
+				D4384D4317D392A0007544D8 /* Team.m in Sources */,
+				D4384D4617D395FF007544D8 /* TeamViewController.m in Sources */,
+				D4384D4C17D616F6007544D8 /* PlayersViewController.m in Sources */,
+				D4FB2D7617F59E59002832AE /* SelectionViewController.m in Sources */,
+				D49D5C9C181A5F5D00FE4F9D /* MatchSheetViewController.m in Sources */,
+				D4FB2D7C17F9A68A002832AE /* CreatePlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +382,7 @@
 		D4384D3C17D387AE007544D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScoreBoard/ScoreBoard-Prefix.pch";
 				INFOPLIST_FILE = "ScoreBoard/ScoreBoard-Info.plist";
@@ -269,6 +394,7 @@
 		D4384D3D17D387AE007544D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScoreBoard/ScoreBoard-Prefix.pch";
 				INFOPLIST_FILE = "ScoreBoard/ScoreBoard-Info.plist";
@@ -296,6 +422,7 @@
 				D4384D3D17D387AE007544D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
